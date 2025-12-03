@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Traffic Sniffer</string>
+    <string name="notification_channel_name">Traffic Capture Service</string>
+    <string name="notification_channel_description">Captures and analyzes network traffic for security assessment</string>
+    <string name="notification_title">Traffic Sniffer Active</string>
+    <string name="notification_text">Capturing network traffic...</string>
+    
+    <!-- UI Strings -->
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="capturing">Capturing Traffic...</string>
+    <string name="ready_to_capture">Ready to Capture</string>
+    
+    <!-- Tab Labels -->
+    <string name="tab_all_packets">All Packets</string>
+    <string name="tab_vulnerabilities">Vulnerabilities</string>
+    <string name="tab_statistics">Statistics</string>
+    
+    <!-- Statistics -->
+    <string name="stat_total_packets">Total Packets Captured</string>
+    <string name="stat_unencrypted">Unencrypted Packets</string>
+    <string name="stat_vulnerabilities">Vulnerabilities Found</string>
+    <string name="stat_http">HTTP Requests</string>
+    <string name="stat_https">HTTPS Requests</string>
+    <string name="stat_encryption_rate">Encryption Rate</string>
+    
+    <!-- Messages -->
+    <string name="no_packets">No packets captured yet</string>
+    <string name="no_vulnerabilities">No vulnerabilities detected</string>
+    <string name="unencrypted_warning">⚠️ UNENCRYPTED</string>
+</resources>
